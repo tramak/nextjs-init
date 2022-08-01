@@ -1,0 +1,11 @@
+//@import "normalize";
+@import "media";
+
+.container {
+  max-width: $screenEx;
+  margin: 0 auto;
+
+  @include mediaMax($screenEx) {
+    margin: 0 $mainMargin;
+  }
+}
